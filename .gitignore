@@ -1,0 +1,6 @@
+/node_modules
+*.log
+/build
+.idea/
+/Cap06/imagens/
+/Cap06/arquivos/
