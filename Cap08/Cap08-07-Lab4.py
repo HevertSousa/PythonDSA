@@ -82,7 +82,7 @@ class homemEnforcado:
     def chute(self, letra):
         if letra in self.palavras and letra not in self.letras_corretas:
             self.letras_corretas.append(letra)
-        elif letra in self.palavras and letra not in self.letras_erradas:
+        elif letra not in self.palavras and letra not in self.letras_erradas:
             self.letras_erradas.append(letra)
         else:
             return False
