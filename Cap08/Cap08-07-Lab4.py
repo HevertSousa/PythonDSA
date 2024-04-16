@@ -2,11 +2,9 @@
 # Programação Orientada a Objetos
 # Hevert Sousa
 
-#imports
 import random
 from os import system, name
 
-#Função para limpar a tela a cada execução.
 
 def limpaTela():
     if name == 'nt':
